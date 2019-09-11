@@ -4,30 +4,43 @@ Date: 08 ,27,2019
 Lab#: Lab1
 Lab dessricptio: My week schedule 
 */
-
 #include <iostream>
-int main()
-{
-	std::cout << "Monday 8:00 College Algebra & Trigonometry 127\n";
-	std::cout << "Monday 9:10 Composition 2 106\n";
-	std::cout << "Monday 12:50 C++ 162\n";
-	std::cout << "Monday 1:40 Classical Physics 212\n";
-	std::cout << "\n";
-	std::cout << "Tuesday 8:00 College Algebra & Trigonometry 127\n";
-	std::cout << "Tuesday 12:50 C++ 162\n";
-	std::cout << "Tuesday 1:40 Classical Physics 212\n";
-	std::cout << "\n";
-	std::cout << "Wednesday 8:00 College Algebra & Trigonometry 127\n";
-	std::cout << "Wednesday 9:10 Composition 2 106\n";
-	std::cout << "Wednesday 12:50 C++ 162\n";
-	std::cout << "Wednesday 1:40 Classical Physics 212\n";
-	std::cout << "\n";
-	std::cout << "Thursday 8:00 College Algebra & Trigonometry 127\n";
-	std::cout << "Thursday 12:50 C++ 162\n";
-	std::cout << "Thursday 1:40 Classical Physics 212\n";
-	std::cout << "\n";
-	std::cout << "Friday 8:00 College Algebra & Trigonometry 127\n";
-	std::cout << "Friday 9:10 Composition 2 106\n";
-	std::cout << "Friday 12:50 C++ 162\n";
-	std::cout << "Friday 1:40 Classical Physics 212\n";
+using namespace std;
+//
+const string MO = "Monday ";
+const string TU = "Tuesday ";
+const string WE = "wednesday ";
+const string TH = "Thursday ";
+const string FR = "Friday ";
+const string CAT = " 8:00 College Algebra & Trigonometry 127";
+const string C2 = " 9:10 Composition 2 106";
+const string CB = " 12:50 C++ 162";
+const string CP = " 1:40 Classical Physics 212";
+const string MS = "\n";
+
+
+int main() {
+	// function call
+	cout << MO << CAT << endl;
+	cout << MO << C2 << endl;
+	cout << MO << CB << endl;
+	cout << MO << CP << endl;
+	cout << MS <<  endl;
+	cout << TU << CAT << endl;
+	cout << TU << CB << endl;
+	cout << TU << CP << endl;
+	cout << MS << endl;
+	cout << WE << CAT << endl;
+	cout << WE << C2 << endl;
+	cout << WE << CB << endl;
+	cout << WE << CP << endl;
+	cout << MS << endl;
+	cout << TH << CAT << endl;
+	cout << TH << CB << endl;
+	cout << TH << CP << endl;
+	cout << MS << endl;
+	cout << FR << CAT << endl;
+	cout << FR << C2 << endl;
+	cout << FR << CB << endl;
+	cout << FR << CP << endl;
 }
