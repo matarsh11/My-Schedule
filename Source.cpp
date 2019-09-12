@@ -6,12 +6,12 @@ Lab dessricptio: My week schedule
 */
 #include <iostream>
 using namespace std;
-//
-const string MO = "Monday ";
-const string TU = "Tuesday ";
-const string WE = "wednesday ";
-const string TH = "Thursday ";
-const string FR = "Friday ";
+//varible daclaration
+const string MO = "Monday	";
+const string TU = "Tuesday	";
+const string WE = "Wednesday";
+const string TH = "Thursday";
+const string FR = "Friday	";
 const string CAT = " 8:00 College Algebra & Trigonometry 127";
 const string C2 = " 9:10 Composition 2 106";
 const string CB = " 12:50 C++ 162";
@@ -43,4 +43,5 @@ int main() {
 	cout << FR << C2 << endl;
 	cout << FR << CB << endl;
 	cout << FR << CP << endl;
+	return 0;
 }
